@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Submit a Recipe</title>
+    <link rel="stylesheet" href="styled-form.css" />
+  </head>
+  <body>
+    <header id="main-header">
+      <h1>Submit Your Recipe</h1>
+    </header>
+
+    <section id="recipe-form">
+      <form action="#" method="post">
+        <label for="recipe-name">Recipe Name:</label>
+        <input type="text" id="recipe-name" name="recipe-name" required />
+
+        <label for="ingredients">Ingredients:</label>
+        <textarea
+          id="ingredients"
+          name="ingredients"
+          rows="5"
+          required
+        ></textarea>
+
+        <label for="instructions">Instructions:</label>
+        <textarea
+          id="instructions"
+          name="instructions"
+          rows="10"
+          required
+        ></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <footer id="main-footer">
+      <p>&copy; 2024 Chocolate Chip Cookie Recipes</p>
+    </footer>
+  </body>
+</html>
